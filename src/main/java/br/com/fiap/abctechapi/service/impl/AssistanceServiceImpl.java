@@ -12,7 +12,8 @@ import java.util.List;
 public class AssistanceServiceImpl implements AssistanceService {
     private final AssistanceRepository assistanceRepository;
 
-    public AssistanceServiceImpl(@Autowired AssistanceRepository assistanceRepository) {
+    @Autowired
+    public AssistanceServiceImpl(AssistanceRepository assistanceRepository) {
         this.assistanceRepository = assistanceRepository;
     }
 
