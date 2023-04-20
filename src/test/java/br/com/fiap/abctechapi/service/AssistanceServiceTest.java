@@ -31,7 +31,7 @@ public class AssistanceServiceTest {
     public void test_list_assistance() {
 
         Mockito.when(assistanceRepository.findAll())
-                .thenReturn(List.of(new Assistance(1L, "Test", "Teste Description")));
+                .thenReturn(List.of(new Assistance(1L, "Test", "Test Description")));
 
         List<Assistance> list = assistanceService.getAssist();
 

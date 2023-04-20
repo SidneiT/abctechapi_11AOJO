@@ -25,7 +25,7 @@ public class ControllerExceptionHandler {
     public ResponseEntity<ErrorMessageResponse> errorMaxAssistRequired(MaximumAssistException exception) {
         ErrorMessageResponse error = new ErrorMessageResponse(
                 exception.getMessage(),
-                exception.getMessage(),
+                exception.getDescription(),
                 HttpStatus.BAD_REQUEST.value()
         );
 
