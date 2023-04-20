@@ -32,9 +32,9 @@ public class OrderApplicationImpl implements OrderApplication {
 
         order.setEndOrderLocation(
                 new OrderLocation(null,
-                        orderDto.getStart().getLatitude(),
-                        orderDto.getStart().getLongitude(),
-                        new Timestamp(orderDto.getStart().getDate().getTime())));
+                        orderDto.getEnd().getLatitude(),
+                        orderDto.getEnd().getLongitude(),
+                        new Timestamp(orderDto.getEnd().getDate().getTime())));
 
 
         this.orderService.saveOrder(order, orderDto.getServices());
