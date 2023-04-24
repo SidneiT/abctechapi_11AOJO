@@ -10,7 +10,7 @@ CREATE TABLE assistances
 INSERT INTO assistances (name, description)
 VALUES ('Telefones', 'Instalação/Manutenção de sistemas de telefone'),
        ('Redes','Instalação/Munutenção de sistemas de redes de dados'),
-       ('Segurança Eletrôncia','Instalação/Manutenção de sistemas de segurança eletrônica'),
+       ('Segurança Eletrônica','Instalação/Manutenção de sistemas de segurança eletrônica'),
        ('Equipamentos de Comunicação','Instalação/Manutenção de equipamentos, como roteadores, modems e switches'),
        ('Ar-condicionado','Instalação/Manutenção de ar-condicionado'),
        ('Energia Solar','Instalação/Manutenção de sistemas de energia solar'),
